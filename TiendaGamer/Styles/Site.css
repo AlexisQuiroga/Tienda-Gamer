@@ -1,0 +1,203 @@
+/* Estilos TiendaGamer - Alexis Quiroga */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dce6f5;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #2b4e9b;
+    padding: 14px 0;
+    text-align: center;
+}
+
+.header h1 {
+    color: white;
+    margin: 0;
+    font-size: 22px;
+}
+
+.header p {
+    color: #b8ccf0;
+    margin: 4px 0 0 0;
+    font-size: 12px;
+}
+
+.contenedor {
+    width: 780px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #b0bedd;
+    border-top: 4px solid #2b4e9b;
+}
+
+h2 {
+    font-size: 16px;
+    color: #2b4e9b;
+    border-bottom: 1px solid #dde3f0;
+    padding-bottom: 6px;
+    margin-bottom: 14px;
+}
+
+label {
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 3px;
+    color: #333333;
+}
+
+.textbox {
+    width: 340px;
+    padding: 5px 6px;
+    border: 1px solid #aab5cc;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+}
+
+select.textbox {
+    width: 354px;
+}
+
+/* Menu principal */
+.menu-nav {
+    margin: 18px 0;
+}
+
+.btn-menu {
+    display: inline-block;
+    padding: 9px 16px;
+    background-color: #2b4e9b;
+    color: white !important;
+    text-decoration: none;
+    font-size: 13px;
+    margin: 4px;
+}
+
+.btn-menu:hover {
+    background-color: #1e3a7a;
+    text-decoration: none;
+    color: white !important;
+}
+
+/* Boton confirmar */
+.btn-confirmar {
+    background-color: #2b4e9b;
+    color: white;
+    border: none;
+    padding: 7px 22px;
+    font-size: 13px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-family: Arial, sans-serif;
+}
+
+.btn-confirmar:hover {
+    background-color: #1e3a7a;
+}
+
+/* Link volver */
+.btn-volver {
+    display: inline-block;
+    color: #2b4e9b;
+    text-decoration: underline;
+    font-size: 13px;
+    margin-top: 15px;
+}
+
+.btn-volver:hover {
+    color: #1e3a7a;
+}
+
+/* Mensajes */
+.mensaje {
+    padding: 8px 12px;
+    font-size: 13px;
+    margin: 10px 0;
+    display: block;
+}
+
+.mensaje-ok {
+    background-color: #d4edda;
+    border: 1px solid #82c893;
+    color: #1d6330;
+}
+
+.mensaje-error {
+    background-color: #fde8ea;
+    border: 1px solid #e8a0a6;
+    color: #8b1a1a;
+}
+
+/* GridView */
+.gridview-tabla {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+    margin-top: 8px;
+}
+
+.gridview-tabla th {
+    background-color: #2b4e9b;
+    color: white;
+    padding: 7px 8px;
+    text-align: left;
+    border: 1px solid #1e3a7a;
+}
+
+.gridview-tabla td {
+    padding: 6px 8px;
+    border: 1px solid #dde3f0;
+}
+
+.gridview-tabla tr:nth-child(even) td {
+    background-color: #f0f4fc;
+}
+
+.btn-seleccionar {
+    background-color: #2b4e9b;
+    color: white;
+    border: none;
+    padding: 3px 10px;
+    font-size: 12px;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+}
+
+.btn-seleccionar:hover {
+    background-color: #1e3a7a;
+}
+
+/* Panel confirmacion baja */
+.panel-eliminar {
+    margin-top: 15px;
+    padding: 14px;
+    background-color: #fff8e1;
+    border: 1px solid #ffc107;
+}
+
+.aviso-rojo {
+    color: #cc0000;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+/* Panel edicion modificacion */
+.panel-edicion {
+    margin-top: 15px;
+    padding: 15px;
+    background-color: #f5f7fc;
+    border: 1px solid #c5d0e6;
+}
+
+.footer {
+    text-align: center;
+    font-size: 11px;
+    color: #999999;
+    padding: 12px;
+    margin-top: 10px;
+}
